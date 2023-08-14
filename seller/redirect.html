@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+        .container
+        {
+            border: 2px solid black;
+            background-color: cadetblue;
+            border-radius: 20px;
+            width: 300px !important;
+            height: 350px;
+            justify-content: space-between !important;
+        }
+        .register
+        {
+            margin-top: 20px;
+        }
+        .header
+        {
+            margin-bottom: 50px;
+        }
+        hr
+        {
+            border: 1px solid yellow;
+            width: 100%;
+            height: 1px;
+        }
+    </style>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+</head>
+<body>
+    
+    <div class="d-flex flex-column vh-100 align-items-center justify-content-center ">
+
+        <div class="container d-flex flex-column align-items-center justify-content-center">
+            <DIV class="header">
+                <h4 >Welcome to Shopping</h4>
+                <hr>
+            </DIV>
+
+            <div class="login">
+                <label  for="login">Already Registered ? Login here</label>
+                <a href="login.html">
+                    <button class="form-control btn btn-success" name="login">Login</button>
+                </a>
+            </div>
+
+            <div class="register">
+                <label for="register">New to Shop? Register Here</label>
+                <a href="register.html">
+                    <button class="form-control btn btn-warning" name="register">Register</button>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+</html>
